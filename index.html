@@ -140,11 +140,19 @@
       <!--Creating Button on HTML-->
       <br><br>
 
-      <button style="font-size: 25px; background-color: blue; color: white; border-radius: 5px;" >Submit</button>
+      <a href="page-2.html">
 
+      <button onclick="doSomething()" style="font-size: 25px; background-color: blue; color: white; border-radius: 5px;" >Submit</button>
+     </a>
 
+    <p id="My-Life">I am blessed</p>
 
+		<script src="index.js" >
+      
+      function doSomething(){
+          document.getElementById("My-Life").innerHTML = "I do only fucos for my internal factors"
+      }
 
-		<script src="index.js" ></script>
+    </script>
 </body>
 </html>
